@@ -1,0 +1,41 @@
+# config.yml (minimal stub for Render deployment)
+
+# ——————————————————————————————
+# Database (all values from Render env vars)
+# ——————————————————————————————
+db:
+  type: postgres
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  user: ${DB_USER}
+  password: ${DB_PASS}
+  database: ${DB_NAME}
+
+# ——————————————————————————————
+# Server (Render provides PORT automatically)
+# ——————————————————————————————
+server:
+  host: 0.0.0.0
+  port: ${PORT}
+
+# ——————————————————————————————
+# Site (you’ll customize this in the setup UI)
+# ——————————————————————————————
+site:
+  title: "My Fandom Wiki"
+  url: "https://<your-app-name>.onrender.com"
+
+# ——————————————————————————————
+# Admin Account (placeholder; you’ll overwrite in the setup UI)
+# ——————————————————————————————
+admin:
+  email: placeholder@example.com
+  username: placeholder
+  password: placeholder
+  firstName: Admin
+  lastName: User
+
+# ——————————————————————————————
+# (Optional) Mail settings, logging, etc.
+# You can add more sections here once you’re in the admin panel.
+# ——————————————————————————————
