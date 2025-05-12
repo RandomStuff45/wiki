@@ -29,7 +29,7 @@ db:
   user: dev
   pass: 8b3T2h9x5bOZPUngAaGvIe0IaokagX38
   db: wiki_vl1z
-  ssl: false
+  ssl: true
 
   # Optional - PostgreSQL / MySQL / MariaDB only:
   # -> Uncomment lines you need below and set `auto` to false
