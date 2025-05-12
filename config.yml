@@ -24,11 +24,11 @@ db:
   type: postgres
 
   # PostgreSQL / MySQL / MariaDB / MS SQL Server only:
-  host: ${DB_HOST}
+  host: dpg-d0gi1249c44c73fj61cg-a.virginia-postgres.render.com
   port: 5432
-  user: ${DB_USER}
-  pass: ${DB_PASS}
-  db: ${DB_NAME}
+  user: dev
+  pass: 8b3T2h9x5bOZPUngAaGvIe0IaokagX38
+  db: wiki_vl1z
   ssl: false
 
   # Optional - PostgreSQL / MySQL / MariaDB only:
